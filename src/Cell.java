@@ -17,6 +17,6 @@ public class Cell {
 	public String toString() {
 		if (isalive)
 			return "O";
-		else return "+";
+		else return " ";
 	}
 }

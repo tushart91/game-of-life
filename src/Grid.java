@@ -67,6 +67,11 @@ public class Grid {
 		for (int i=1; i <= size.x; i++) {
 			for (int j=1; j <= size.y; j++) {
 				grid += cells[i][j].toString();
+				grid += "|";
+			}
+			grid += "\n";
+			for (int j=1; j <= size.y; j++) {
+				grid += "--";
 			}
 			grid += "\n";
 		}
